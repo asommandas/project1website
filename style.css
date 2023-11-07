@@ -340,14 +340,21 @@ footer {
 .tipbox1:hover {
     background-color: #add190;
 }
-.tipbox1 img {
+.tipbox1 h2 {
+    color: #e198c2 ;
+}
+.lampje p {
+    text-align: end;
+    font-family: 'Edu TAS Beginner';
+    margin-top: 1em;
+    
+}
+.lampje img {
     width: 4em;
     height: 6em;
     padding-left: 10em;
 }
-.tipbox1 h2 {
-    color: #e198c2 ;
-}
+
 .bitmoji {
     display: flex;
     justify-content: center;

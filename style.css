@@ -3,7 +3,7 @@
     padding: 0em;
 }
 body {
-    background-image: url(foto/achtergrond_website.png);
+    background-color: #24388d;
 }
 .bannerhome {
     height: 100vh;
@@ -194,9 +194,9 @@ footer {
 
 .verwijs_link {
     display: flex;
-    background-color: #24388d;
+    background-color: #add190;
     padding: 1em;
-    color: #add190;
+    color: #e71d73;
     border: none;
     border-radius: 20px;
     text-decoration: none;
@@ -369,8 +369,10 @@ footer {
     background-color: #e71d73;
     border-radius: 100px;
     width: 300px;
-    height: 300px;
+    height: 330px;
     margin-top: 2em;
+    text-align: center;
+    padding-top: 2em;
 }
 .spreekwolk1::before{
     content:" ";
@@ -381,10 +383,26 @@ footer {
     border-style: solid;
     border-color: #e71d73 transparent transparent transparent;
 }
-.spreekwolk1 H2 {
+.spreekwolk1 h1 {
+    font-size: 30px;
+    color: #add190;
+    margin-top: 1em;
+}
+.spreekwolk1 h2 {
     color: #add190;
     text-align: center;
-    padding-top: 2em;
+    font-size: 20px;
+}
+.spreekwolk1 p {
+    color: #add190;
+    margin-top: 0.5em;
+}
+.dagen_opmaak {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    gap: 2em;
+
 }
 .achtergrond_over {
      background-color: #e198c2;

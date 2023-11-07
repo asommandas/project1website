@@ -12,15 +12,16 @@ body {
     background-size: cover;
     background-position: center;
     display: row;
+    margin: 0;
 }
 .logo img {
-    width: 20em;
+    width: 22em;
     height: 6em;
 }
 .logo {
     display: flex;
     justify-content: center;
-    padding-top: 5em;
+    padding-top: 3em;
 }
 .navbar {
     width: 100%;
@@ -33,6 +34,7 @@ body {
     background-color: #add190;
     border-radius: 1.2em;
     padding: 0.5em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 .nav_bar a {
     color: #e71d73;
@@ -49,16 +51,46 @@ ul {
     gap: 0.8em; 
     justify-content: center;
 }
+.spreekwolk_home {
+    position: relative;
+    background-color: #e71d73;
+    border-radius: 100px;
+    width: 200px;
+    height: 150px;
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-bottom: 0em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.spreekwolk_home::before{
+    content:" ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #e71d73 transparent transparent transparent;
+}
+.spreekwolk_home p{
+    color: #e198c2;
+    font-family:'Edu TAS Beginner', cursive; ;
+    font-size: 20px;
+    padding: 1em;
+    text-align: center;
+}
+.banner_bitmoji {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: end;
+    margin-right: 2em;
+}
 .intro {
     color: #24388d;
     text-align: center;
     font-family: 'Edu TAS Beginner', cursive;
     background-color: #e198c2;
-    padding: 3em;
-}
-.intro p{
-    margin: 0 1em 1em;
-    font-size: 18px;
+    padding: 2em;
+    font-size: 20px;
 }
 .doel {
     display: flex;
@@ -69,8 +101,8 @@ ul {
     margin-top: 10%;  
 }
 .doel p {
-    font-size: 30px;
-    font-family: monospace;
+    font-size: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
     margin: 10%;
 }
 .icoon_recycle {
@@ -94,6 +126,8 @@ ul {
 header {
     background-color: #e198c2;
     padding-bottom: 2em;
+    border-radius: 0 0 50px 50px;
+    
 }
 .waarhome {
     background-color: #e198c2;
@@ -105,7 +139,7 @@ header {
 }
 h2 {
     font-family: 'Edu TAS Beginner', cursive;
-    font-weight: bold 700;
+    font-size: 25px;
     padding-top: 10%;
     color: midnightblue;
 }
@@ -119,19 +153,19 @@ h2 {
 }
 .button_home{
     background-color: #add190;
+    margin-top: 1em;
     margin-left: 30%;
     margin-right: 30%;
     border-radius: 10px;
     padding: 1%;
-    font-family: monospace;
+    font-family: 'Edu TAS Beginner';
 }
+
 .button_home a{
     color: #e71d73;
+    text-decoration: none;
 }
-.button_home:hover {
-    background-color: #e71d73;
-    color: #add190;
-}
+
 h1{
     text-align: center;
     font-family: 'Agbalumo';
@@ -143,7 +177,7 @@ h1{
     margin: 5%;
     text-align: center;
     font-family: 'Edu TAS Beginner', cursive;
-    font-size: 18px;
+    font-size: 20px;
 }
 .waar_intro p {
     margin: 5%;
@@ -178,15 +212,16 @@ footer {
     font-weight: bold;
 }
 .spreekwolken {
-    margin: 2em
+    margin: 1em;
 }
 .spraakwolk1 {
     position: relative;
-    background-color: #e198c2;
+    background-color: #e71d73;
     border-radius: 100px;
-    width: 180px;
-    height: 130px;
+    width: 200px;
+    height: 110px;
     margin-top: 2em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 .spraakwolk1, .spraakwolk2, .spraakwolk3, .spraakwolk4 {
     text-align: center;
@@ -202,18 +237,19 @@ footer {
     left: 40%;
     border-width: 10px;
     border-style: solid;
-    border-color: #e198c2 transparent transparent transparent;
+    border-color: #e71d73 transparent transparent transparent;
 }
 .spraakwolk2 {
     position: relative;
-    background-color: #e198c2;
+    background-color: #add190;
     border-radius: 100px;
     padding: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 200px;
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
     height: 100px;
     margin-top: 2em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 .spraakwolk2::before{
     content:" ";
@@ -222,19 +258,19 @@ footer {
     left: 50%;
     border-width: 10px;
     border-style: solid;
-    border-color: #e198c2 transparent transparent transparent
+    border-color: #add190 transparent transparent transparent
 }
 .spraakwolk3 {
     position: relative;
-    background-color: #e198c2;
+    background-color: #e71d73;
     border-radius: 100px;
     padding: 2px;
-    padding-left: 50px;
-    padding-right: 20px;
+    padding-left: 4em;
+    padding-right: 1em;
     width: 150px;
     height: 125px;
     margin-top: 2em;
-    
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 .spraakwolk3::before{
     content:" ";
@@ -243,15 +279,16 @@ footer {
     left: 50%;
     border-width: 10px;
     border-style: solid;
-    border-color: #e198c2 transparent transparent transparent
+    border-color: #e71d73 transparent transparent transparent
 }
 .spraakwolk4 {
     position: relative;
-    background-color: #e198c2;
+    background-color: #add190;
     border-radius: 100px;
     width: 180px;
-    height: 130px;
+    height: 110px;
     margin-top: 2em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 .spraakwolk4::before{
     content:" ";
@@ -260,17 +297,14 @@ footer {
     left: 50%;
     border-width: 10px;
     border-style: solid;
-    border-color: #e198c2 transparent transparent transparent
+    border-color: #add190 transparent transparent transparent
 }
 .persoon {
     margin-top: 2em;
     display: flex;
     justify-content: center;
 }
-.map {
-    height: 100%;
-    width: 100%;
-}
+
 .verwijspersoon {
     display: flex;
     justify-content: center;
@@ -282,6 +316,7 @@ footer {
 }
 .tips_bitmoji {
     display: flex;
+    justify-content: center;
     margin-right: 3em;
     gap: 2.5em;
 }
@@ -290,20 +325,35 @@ footer {
     margin-left: 1em;
 }
 .tips {
-    display: flex;
+    display: block;
 }
 .tipbox1 {
-    background-color: #e198c2;
-    margin-top: 2em;
-    margin-left: 1.3em;
+    background-color: #e71d73;
+    margin: 2em;
     padding: 3em;
-    border-radius: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    display: flex;
 }
-
+.tipbox1:hover {
+    background-color: #add190;
+}
+.tipbox1 img {
+    width: 8em;
+    height: 10em;
+    padding-left: 35em;
+}
+.tipbox1 h2 {
+    color: #e198c2 ;
+}
 .bitmoji {
     display: flex;
     justify-content: center;
     margin-top: 2em;
+}
+.spreekwaar {
+    display: flex;
+    justify-content: center;
 }
 .spreekwolk1 {
     position: relative;
@@ -312,7 +362,6 @@ footer {
     width: 300px;
     height: 300px;
     margin-top: 2em;
-    margin-left: 3em;
 }
 .spreekwolk1::before{
     content:" ";

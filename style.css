@@ -326,11 +326,13 @@ footer {
 }
 .tips {
     display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .tipbox1 {
     background-color: #e71d73;
-    margin: 2em;
-    padding: 3em;
+    margin: 1em;
+    padding: 2em;
     border-radius: 50px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     display: flex;
@@ -339,9 +341,9 @@ footer {
     background-color: #add190;
 }
 .tipbox1 img {
-    width: 8em;
-    height: 10em;
-    padding-left: 35em;
+    width: 4em;
+    height: 6em;
+    padding-left: 10em;
 }
 .tipbox1 h2 {
     color: #e198c2 ;

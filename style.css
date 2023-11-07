@@ -26,12 +26,12 @@
     position: relative;
     background-color: aliceblue;
 }
-.nav-bar li {
+.nav_bar li {
     background-color: #add190;
     border-radius: 1.2em;
     padding: 0.5em;
 }
-.nav-bar a {
+.nav_bar a {
     color: #e71d73;
     text-align: center;
     text-decoration: none;
@@ -72,21 +72,21 @@ ul {
     font-family: monospace;
     margin: 10%;
 }
-.icoon-RECYCLE {
+.icoon_recycle {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     border-radius: 20px;
     background-color: #e71d73;
 }
-.icoon-RECYCLE img {
+.icoon_recycle img {
     width: 8em;
     width: 8em;
 }
-.icoon-BOOM {
+.icoon_boom {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     border-radius: 20px;
     background-color: #e71d73;
 }
-.icoon-BOOM img {
+.icoon_boom img {
     width: 8em;
     width: 8em;
 }
@@ -106,13 +106,13 @@ header {
     text-align: center;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
-H2 {
+h2 {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: bold 700;
     padding-top: 10%;
     color: midnightblue;
 }
-.Overons {
+.overons {
     background-color: #e198c2;
     margin: 10%;
     padding-bottom: 30%;
@@ -135,7 +135,7 @@ H2 {
     background-color: #e71d73;
     color: #add190;
 }
-H1{
+h1{
     text-align: center;
     font-family: 'Agbalumo';
     font-size: 50px;
